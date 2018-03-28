@@ -1,3 +1,29 @@
-"left":{
-"name":"shaik ruhi"
+{
+  "left":{
+    "photo":"profile.png",
+    "name":"Shaik Ruhi Afsha  ",
+    "label": "(Attitude Matters)",
+    "email":"shaikruhi2322@gmail.com",
+    "phone":"9090909090"
+
+  },
+  "education":[
+    {
+      "course":"Btech(CSE)",
+      "College":[
+        "Ravinda College Of Enginering Fro Women",
+        "2015-2019",
+        "80%"
+      ]
+    },
+    {
+    "course":"Intermediate",
+    "Collge":[
+      "Narayana junr College",
+      "2013-2015",
+      "89%"
+    ]
+  }
+
+  ]
 }

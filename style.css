@@ -1,7 +1,7 @@
 .main
 {
       width:100%;
-      background-color: #c45e45;
+      background-color: skyblue;
       display: flex;
 
 
@@ -9,7 +9,7 @@
     .left
     {
       width:25%;
-      background-color: blue;
+      background-color: pink;
       border:5px solid #000;
       margin: 5px;
       padding:2px;
@@ -30,11 +30,11 @@
       border-radius: 110px;
       border: 5px solid #c454;
     }
-    @media only screen and (min-width:320px) and (max-width:480px) {
+    @media only screen and (max-width:480px) {
       .main
       {
             width:100%;
-            background-color: #c45e45;
+            background-color: skyblue;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -44,7 +44,7 @@
           .left
           {
             width:100%;
-            background-color: blue;
+            background-color: yellow;
             border:5px solid #000;
             margin: 5px;
             padding:2px;
