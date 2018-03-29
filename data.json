@@ -1,5 +1,5 @@
 {
-  "left":{
+  "resume":{
     "photo":"profile.png",
     "name":"Shaik Ruhi Afsha  ",
     "label": "(Attitude Matters)",
@@ -18,12 +18,28 @@
     },
     {
     "course":"Intermediate",
-    "Collge":[
+    "College":[
       "Narayana junr College",
       "2013-2015",
       "89%"
     ]
   }
 
-  ]
+],
+  "skills":
+  [
+    {
+    "name":"operating systems",
+    "value":"windows.linux"
+  },
+  {
+    "name":"Programming Languages",
+    "value":"java,c,c++"
+  },
+  {
+    "name":"Web development",
+    "value":"HTML,Python"
+  }
+]
+
 }

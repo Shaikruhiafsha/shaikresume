@@ -1,15 +1,18 @@
 .main
 {
-      width:100%;
-      background-color: skyblue;
+
+      background-color:#f9f9ef;
       display: flex;
+      flex-wrap: wrap;
 
 
     }
     .left
     {
-      width:25%;
-      background-color: pink;
+
+      flex:1;
+      text-align: center;
+      background-color: #f2e20c;
       border:5px solid #000;
       margin: 5px;
       padding:2px;
@@ -18,14 +21,23 @@
     }
     .right
     {
-      width:80%;
-      background-color:green;
-      border: 5px solid #000;margin:5px;
+      flex:2;
+      text-align: justify;
+      background-color:#fcfcfc;
+      border: 5px solid #000;
+      margin:5px;
     }
     #name
     {
       color:pink;
     }
+    table,tr,td
+    {
+      background-color:orange;
+      border: 2px solid #000;
+      border-collapse: collapse;
+    }
+
     .left img{
       border-radius: 110px;
       border: 5px solid #c454;
@@ -33,15 +45,15 @@
     @media only screen and (max-width:480px) {
       .main
       {
-            width:100%;
+
             background-color: skyblue;
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
             flex-wrap: wrap;
 
 
           }
-          .left
+          /* .left
           {
             width:100%;
             background-color: yellow;
@@ -50,20 +62,20 @@
             padding:2px;
             /* background-image: url(); */
 
-          }
+          /* }
           .right
           {
             width:100%;
             background-color:green;
             border: 5px solid #000;margin:5px;
-          }
-          #name
+          } */
+          /* #name
           {
             color:pink;
           }
           .left img{
             border-radius: 110px;
             border: 5px solid #c454;
-          }
+          } */
 
     }
